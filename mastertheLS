@@ -1,3 +1,5 @@
 #ls -t -m -p -G -T1 (linux)
 
-ls -t -m -p | sed 's/ /  /g'
+#ls -t -m -p | sed 's/ /  /g' (extra space)
+
+ls -t -m -p | sed 's/"  "/"" /g'
